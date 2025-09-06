@@ -1,0 +1,67 @@
+@media screen and (min-width:1023px) {
+/* Esconde o botão de abrir menu */ 
+    header {
+        padding: 40px var(--spacing-sm);
+    }
+
+    header nav ul li {
+        display: inline-block;
+        padding: 0 var(--spacing-lg);
+    }
+
+    .btn-abrir-menu {
+        display: none;
+    }
+
+    .menu-mobile {
+        display: none;
+    }
+
+    .menu-desktop {
+        display: block;
+    }
+
+    .btn-contato {
+        display: block;
+    }
+
+    header a {
+        color: var(--cor-texto-hover);
+    }
+
+    header a:hover {
+        color: var(--cor-texto);
+    }
+/*ESTILO TOPO DO SITE*/
+section.topo-do-site .flex {
+    flex-flow: row;
+}
+.topo-do-site .img-topo-site img {
+    width: 500px;
+}
+/*ESTILO ESPECIALIDADES*/
+section.especialidades {
+    padding: 40px 4%;
+}
+section.especialidades .flex {
+    flex-flow: row;
+    gap: 60px;
+}
+/*ESTILO SOBRE*/
+.sobre .flex {
+    flex-flow: row;
+}
+.sobre .img-sobre img {
+    max-width: 350px;
+}
+/* ESTILO PORTFOLIO */
+section.portfolio .flex {
+    flex-direction: row;
+}
+/*ESTILO FOOTER*/
+footer .flex {
+    flex-direction: row;
+    justify-content: space-between;
+}
+    
+}
