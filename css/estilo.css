@@ -349,6 +349,7 @@ footer .flex {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: var(--spacing-md);
 }
 footer .line-footer {
     padding: var(--spacing-md) 0 ;
